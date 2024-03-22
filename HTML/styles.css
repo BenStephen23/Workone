@@ -16,7 +16,7 @@ nav {
 }
 .nav-li {
     list-style-type: none;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .nav-li li {
@@ -37,6 +37,9 @@ nav {
     color: lightgrey;
 }
 
+/* end of nav bar */
+
+/* back to top link */
 .backlink {
     background-color: black;
     color: white;
@@ -47,6 +50,19 @@ nav {
     color: lightgrey;
     }
 }
+
+/* port link */
+.portlink {
+    background-color: black;
+    color: white;
+    
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    color: lightgrey;
+    }
+}
+
+/* main content */
 
 .head1 {
     text-align: center;
@@ -73,6 +89,15 @@ audio {
     width: 100%;
     margin: 10px 0;
 }
+
+.proli {
+    list-style: none;
+    text-align: center;
+    margin-top: -15px;
+}
+
+
+/* footer */
 
 footer {
     background-color: black;
